@@ -149,6 +149,7 @@ nav li{
   justify-content: center;
   place-items: center;
   text-align: center;
+  margin: auto;
   border: 30px solid orangered;
   border-radius: 20px;
   width: 500px
@@ -263,7 +264,7 @@ nav li{
   font-weight: bold;
   color: orangered;
   border: none;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
   text-shadow:  0 0 50px #111,
   0 0 50px #111,
   0 0 50px #111;
@@ -493,7 +494,7 @@ footer{
   }
 
   nav li{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     margin: 3px;
   }
@@ -513,7 +514,7 @@ footer{
     font-weight: bold;
     color: orangered;
     border: none;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
     text-shadow:  0 0 50px #111,
     0 0 50px #111,
     0 0 50px #111;
