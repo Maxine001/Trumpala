@@ -14,14 +14,35 @@ body{
   padding: 0;
   margin: 0;
   margin-bottom: 0;
+  line-height: 1.4;
 }
 
 html{
   overflow-x: hidden;
   margin-bottom: 0;
+  scroll-behavior: smooth;
 }
 
+a{
+  color: #fff;
+  text-decoration: none;
+}
 
+a:hover{
+  color: orangered;
+}
+/*
+[data-section] > * {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: 1s ease;
+}
+
+[data-section].active > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+*/
 
 .wrapper span{
   position: fixed;
@@ -172,16 +193,20 @@ nav li{
 
 .social-list li{
   display: inline-block;
+  margin: 10px;
+  
+  
 }
 
 .social-link {
-  font-size: 40px;
+  padding-top: 60px;
+  font-size: 50px;
   transition: var(--transition-1);
   
 }
 
 .social-link:is(:hover, :focus) { 
-  color: var(--blue-crayola); 
+  color: orangered; 
 }
 
 .contract{
